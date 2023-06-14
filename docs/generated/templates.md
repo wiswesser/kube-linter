@@ -597,6 +597,15 @@ KubeLinter supports the following templates:
 **Supported Objects**: DeploymentLike
 
 
+## Project Label on Deployments
+
+**Key**: `project-label`
+
+**Description**: Flag Deployments not having a project label
+
+**Supported Objects**: DeploymentLike
+
+
 ## Read-only Root Filesystems
 
 **Key**: `read-only-root-fs`

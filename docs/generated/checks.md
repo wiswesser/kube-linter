@@ -455,6 +455,15 @@ strategyTypeRegex: ^(RollingUpdate|Rolling)$
 **Remediation**: Ensure privileged ports [0, 1024] are not mapped within containers.
 
 **Template**: [privileged-ports](templates.md#privileged-ports)
+## project-label
+
+**Enabled by default**: Yes
+
+**Description**: Indicates when a deployment-like object is running without a project label
+
+**Remediation**: Add a label project.
+
+**Template**: [project-label](templates.md#project-label-on-deployments)
 ## read-secret-from-env-var
 
 **Enabled by default**: No

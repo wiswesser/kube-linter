@@ -1,0 +1,9 @@
+name: "project-label"
+description: "Indicates when a deployment-like object is running without a project label"
+remediation: "Add a label project."
+scope:
+  objectKinds:
+    - DeploymentLike
+template: "project-label"
+params:
+

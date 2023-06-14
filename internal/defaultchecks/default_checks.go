@@ -27,6 +27,7 @@ var (
 		"pdb-min-available",
 		"privilege-escalation-container",
 		"privileged-container",
+		"project-label",
 		"run-as-non-root",
 		"sensitive-host-mounts",
 		"ssh-port",
